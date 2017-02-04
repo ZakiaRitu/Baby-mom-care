@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44e65100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Medicine Alarm" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name of your medicine"
+            android:textColor="#664357"
+            android:layout_marginLeft="20dp"
+            android:textSize="22dp"/>
+        <EditText
+            android:id="@+id/medicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Date And Time" />
+
+    <Button
+        android:id="@+id/buttonSelectDate"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="End Date And Time" />
+
+    <Button
+        android:id="@+id/SelectEndDate"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/SelectEndTime"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time diffrance between each alarm"
+                android:textColor="#664357"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="22dp"/>
+
+            <EditText
+                android:id="@+id/time_dis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="number"
+                android:inputType="number"
+                />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="submit"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffccbc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffccbc"
+        android:id="@+id/lineraOuter"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Medicine Alarm"
+            android:gravity="center"
+            android:textColor="#d84315"
+            android:textSize="26dp"
+            android:padding="16dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Number Of Medicine"
+            android:textColorHint="#d84315"
+            android:id="@+id/numberOfMed"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="OK"
+            android:id="@+id/button200"
+            android:background="#ff7043"
+            android:onClick="Clicked"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time Diffrance Between Each Alarm"
+                android:textSize="22dp"
+                android:textColor="#d84315"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After 6 hr"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linerInner"
+            android:layout_gravity="center_horizontal"></LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/medicineOKbutton"
+            android:background="#ff7043"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

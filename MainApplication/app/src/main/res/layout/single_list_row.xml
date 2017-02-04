@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/st_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nihal "
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="[Dhaka]"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_weight="3"
+        android:id="@+id/Comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="take care"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

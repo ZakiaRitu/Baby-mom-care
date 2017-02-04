@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/reg3"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Babyfo"
+            android:id="@+id/btncare"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textColor="#0e053b"
+            android:textSize="25sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Medicine Alarm "
+            android:layout_weight="1"
+            android:id="@+id/medicine_alarm"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:textColor="#0e053b"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Tika Alarm"
+            android:layout_weight="1"
+            android:id="@+id/btntika"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#0e053b"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Weight Monitoring"
+            android:layout_weight="1"
+            android:id="@+id/btnabout"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#0e053b"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:background="@drawable/button"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Find health Centre"
+            android:id="@+id/btnapi"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#0e053b"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="ask a question"
+            android:layout_weight="1"
+            android:id="@+id/btnblog"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#0e053b"
+            android:textSize="25sp"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+</FrameLayout>

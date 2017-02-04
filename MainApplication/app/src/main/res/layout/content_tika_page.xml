@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout android:background="#e0f7fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Tika ALarm"
+            android:layout_marginTop="10dp"
+            android:textColor="#082567"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="italic|bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baby's Birth Date?"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0277bd"
+            android:textSize="26dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"/>
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker"
+            android:calendarViewShown="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#80deea"
+            android:text="ok"
+            android:id="@+id/button"
+            android:onClick="setAlarm"/>
+        <!--<DatePicker
+            android:id="@+id/date_picker"
+            android:calendarViewShown="false"
+            android:layout_height="105dp"
+            android:layout_width="wrap_content"
+            android:scaleX="0.60"
+            android:scaleY="0.60"
+            android:layout_marginLeft="-50dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="-50dp"
+            android:layout_marginBottom="-30dp" />-->
+    </LinearLayout>
+
+</ScrollView>

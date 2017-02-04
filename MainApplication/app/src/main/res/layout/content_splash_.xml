@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="150dp"
+        />
+
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:text="Create an account"
+        android:layout_weight="1"
+        android:onClick="create"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="350dp"
+        android:textStyle="italic"
+        android:background="@drawable/button"/>
+
+    <TextView
+
+        android:id="@+id/signin"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:onClick="signin"
+        android:text="Have an account? Sign in"
+        android:textColor="#ffffff"
+        android:layout_marginTop="410dp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Baby &amp; Mom Care"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#273746  "
+        android:textStyle="italic|bold"/>
+
+
+
+</FrameLayout>
